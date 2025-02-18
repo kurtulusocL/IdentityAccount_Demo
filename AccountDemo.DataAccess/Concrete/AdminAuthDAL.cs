@@ -86,7 +86,7 @@ namespace AccountDemo.DataAccess.Concrete
                 mail.Body = "Reset Password" + " " + "Please reset your password by clicking here: <a href=\"" + callbackUrl + "\">link</a>";
                 mail.IsBodyHtml = true;
 
-                NetworkCredential enter = new NetworkCredential("kurtulusocal@yandex.com", "wyhosanqytpqiucv");
+                NetworkCredential enter = new NetworkCredential("kurtulusocal@yandex.com", "");
                 client.UseDefaultCredentials = false;
                 client.EnableSsl = true;
                 client.Credentials = enter;
